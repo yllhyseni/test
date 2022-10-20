@@ -1,0 +1,163 @@
+:root{
+    --black:#2C3333;
+    --blue:#A5C9CA;
+    --dblue:#395B64;}
+
+    .contaner{
+        background-color:var(--blue) ;
+        border: 10px solid var(--black); 
+         height: 100vh;
+         /* display: flex;
+         justify-content: center;
+         align-items: center; */
+        
+         
+    }
+    *{
+        margin: 0;
+     }
+     .nav{
+    
+        width: 99%;
+        height: 121px;
+        background-color: var(--blue);
+        border: 10px solid var(--black);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+     }
+
+     .aboutus{
+        width: 1771px;
+        height: 216px;
+        background-color: var(--blue);
+        text-align: center;
+    }
+    .logo{
+        width: 135px;
+        height: 123px;
+        background-color: #2C3333;
+        
+    }
+    .img{
+        width: 125px;
+    }
+    .contactus{
+        width: 199px;
+        height: 102px;
+        background-color: var(--blue);
+        border: 10px solid var(--black);
+        display: felx;
+        flex-flow: row;
+    }
+    .bcontatc{
+        width: 199px;
+        height: 102px;
+        background-color: var(--blue);
+        font-size: xx-large;
+    
+    }
+    .searchbar{
+        width: 474px;
+        height: 104px;
+        background-color: var(--blue);
+        border: 10px solid var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bar{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        background-color: #E7F6F2;
+        border: 10px solid var(--black);
+        border-radius: 20px;
+    }
+    .offers{
+        width: 266px;
+        height: 102px;
+        background-color: var(--blue);
+        border: 10px solid var(--black);
+        }
+        .idk{
+            width: 266px;
+            height: 102px;
+            background-color: var(--blue);
+            border: 10px solid var(--black);
+        }
+        .login{
+            width: 125px;
+            height: 102px;
+            background-color: var(--blue);
+            border: 10px solid var(--black);
+        }
+        .signup{
+            width: 125px;
+            height: 102px;
+            background-color: var(--blue);
+            border: 10px solid var(--black);
+        }
+        .boffers{
+        width: 267px;
+        height: 102px;
+        background-color: var(--blue);
+        font-size: xx-large;
+        }
+        .bidk{
+         width: 266px;
+        height: 102px;
+        background-color: var(--blue);
+        font-size: xx-large;
+        }
+        .blogin{
+        width: 126px;
+        height: 102px;
+        background-color: var(--blue);
+        font-size: xx-large;
+        }
+        .bsignup{
+        width: 126px;
+        height: 102px;
+        background-color: var(--blue);
+        font-size: xx-large;
+        }
+        .aboutusp{
+            font-size: xx-large;
+            text-align: center;
+        }
+        .mainbox{
+            display: flex;
+            justify-content: space-around;
+            
+            align-items: center;
+        }
+        .clasic{
+            margin-top: 20px;
+            width: 500px;
+            height: 585px;
+            background-color: #E7F6F2;
+            text-align: center;
+            font-size: xx-large;
+            padding: 10px;
+        }
+        .normal{
+            margin-top: 20px;
+            width: 500px;
+            height: 585px;
+            background-color: #E7F6F2;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .master{
+            margin-top: 20px;
+            width: 500px;
+            height: 585px;
+            background-color: #E7F6F2;
+            text-align: center;
+            font-size: xx-large;
+        }
