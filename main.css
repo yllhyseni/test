@@ -63,6 +63,9 @@ html, body {
     width: 135px;
     height: 123px;
     background-color: #2C3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .img{
@@ -81,7 +84,7 @@ html, body {
     height: 102px;
     background-color: var(--blue);
     font-size: xx-large;
-
+    
 }
 .searchbar{
     width: 474px;
@@ -157,6 +160,7 @@ html, body {
         font-size: xx-large;
         text-align: center;
     }
+    
     
 
 /* .blue{

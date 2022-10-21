@@ -38,6 +38,10 @@
         width: 135px;
         height: 123px;
         background-color: #2C3333;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
         
     }
     .img{
@@ -50,6 +54,7 @@
         border: 10px solid var(--black);
         display: felx;
         flex-flow: row;
+        
     }
     .bcontatc{
         width: 199px;

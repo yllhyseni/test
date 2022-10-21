@@ -40,6 +40,9 @@
         width: 135px;
         height: 123px;
         background-color: #2C3333;
+        display: flex;
+    justify-content: center;
+    align-items: center;
         
     }
     .img{
@@ -138,19 +141,19 @@
         .photobox1{
             width: 25%;
             height: 388px;
-            background-color: #2C3333;
+            background-color: #ffe6ed;
             margin-top: 50px;
         }
         .photobox2{
             width: 25%;
             height: 388px;
-            background-color: #2C3333;
+            background-color: #ffe6ed;
             margin-top: 50px;
         }
         .photobutton1{
             width: 5%;
             height: 50px;
-            background-color: #E7F6F2;
+            background-color: #ffe6ed;
             border: 10px solid #2C3333;
             border-radius: 20px;
             margin-top: 10px;
@@ -159,7 +162,7 @@
         .photobutton2{
             width: 5%;
             height: 50px;
-            background-color: #E7F6F2;
+            background-color: #ffe6ed;
             border: 10px solid #2C3333;
             border-radius: 20px;
             margin-top: 10px;
@@ -176,4 +179,16 @@
         .photo2{
             width: 100%;
             height: 388px;
+        }
+        .button1{
+            width: 100%;
+            height: 50px;
+            background-color: #ffe6ed;
+            font-size: x-large;
+        }
+        .button2{
+            width: 100%;
+            height: 50px;
+            background-color: #ffe6ed;
+            font-size: x-large;
         }
